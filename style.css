@@ -254,3 +254,11 @@ header {
     outline: none;
     box-shadow: 0 0 0 2px var(--progress-bar);
 }
+
+.text-area-info p {
+    color: var(--secondary-text);
+}
+
+.checkboxes label {
+    color: var(--secondary-text);
+}
