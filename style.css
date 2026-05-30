@@ -149,12 +149,24 @@ header {
 
 .total-characters {
     background-color: var(--violet-card);
+    background-image: url(./assets/images/violet-background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .word-count {
     background-color: var(--orange-card);
+    background-image: url(./assets/images/orange-background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .sentence-count {
     background-color: var(--coral-card);
+    background-image: url(./assets/images/coral-background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
