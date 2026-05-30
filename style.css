@@ -249,3 +249,8 @@ header {
     background-color: var(--progress-bar);
     border-color: var(--progress-bar);
 }
+
+.text-area:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px var(--progress-bar);
+}
