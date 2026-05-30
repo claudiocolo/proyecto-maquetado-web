@@ -33,7 +33,7 @@ En esta primera etapa no se hará uso de Javascript, será agregado al proyecto 
 ## Organización del HTML
 
 ### Head
-En el **Head** fue modificado el **título** de la pestaña a "Character Counter", además se agregó un link al **favicon** guardado en assets/images para modificar el ícono que aparece a su lado. También se linkeó el **CSS** correspondiente para hacer uso de la hoja de estilos.
+En el **Head** modifiqué el **título** de la pestaña a "Character Counter", además agregué un link al **favicon** guardado en assets/images para modificar el ícono que aparece a su lado. También linkié el **CSS** correspondiente para hacer uso de la hoja de estilos.
 
 ### Body
 En el **Body** lo primero que agregué fue un **div con class "container"** el cual contiene todo lo renderizado. Fue pensado con el objetivo de poder centrar el contenedor en la página. El body cuenta con un **Header** y un **Main**.
@@ -64,13 +64,13 @@ Continué con el **.hero** alineando y estilizando el titulo, ajustando el ancho
 
 En cuanto al **textarea** también manejé su margen general y margen entre letras, padding, ancho, alto, bordes, color y ancho de letra, etc. En este caso al finalizar el proyecto decidí incluir en un :focus el **box-shadow** pedido en la consigna, dándole los bordes violetas al hacer click.
 
-A la hora de estilizar los **checkboxes** les di flex para poder ajustar el texto y el input, agregándoles gap, para separarlos y poder ajustarlos correctamente. También decidí darles un **cursor:pointer** para que al pausar el mouse se cambie el cursor de flecha a manito, para darle mejor interactividad visual. Y para finalizar esta sección les di una propiedad **:checked** para que cambien a violeta al clickear.
+A la hora de estilizar los **checkboxes** les di flex para poder ajustar el texto y el input, agregándoles gap, para separarlos y poder ajustarlos correctamente. También decidí darles un **cursor:pointer** para que al pasar el mouse se cambie el cursor de flecha a manito, para darle mejor interactividad visual. Y para finalizar esta sección les di una propiedad **:checked** para que cambien a violeta al clickear.
 
 En los **stats** que son las cards, al tener tres contenedores que quería tener horizontalmente usé flexbox para poder ajustarlos. Luego dentro de cada una le puse un **background-image** para que contengan un diseño de fondo, elegí los mismos que se mostraban en la presentación del proyecto. Utilicé copilot para tener el png y poder aplicarlo.
 
 En el caso de **letter-density** organicé los elementos con flexbox y empecé a estilizar los divs que estaban pensados para representar una barra de progreso. Modifiqué primero la **bar** y luego con **fill** elegí el color dado en el proyecto (violeta) y lo coloqué ajustándolo a la barra. Para finalizar esta parte ajusté el ancho de esta barra que estaba superpuesta a la gris de "bar" con **la clase secundaria de los fill**, de esta forma pude dar el efecto de progresión con solo un div vacío.
 
-Y para finalizar la parte del botón de **"see more"** la cual utilizando flexbox logré alinear la imagen de la flecha hacia abajo con el texto y estilizarlas. Decidí también poner un **cursor:pointer** y agregar un **hover** para que se vea diferente, con más interactividad visual.
+Y para terminar, la parte del botón de **"see more"** utilizando flexbox logré alinear la imagen de la flecha hacia abajo con el texto y estilizarlas. Decidí también poner un **cursor:pointer** y agregar un **hover** para que se vea diferente, con más interactividad visual.
 
 ## Dificultades encontradas
 - **Imágenes:** Las dudas fueron evacuadas en clase, con copilot pude sacar los png necesarios para el proyecto.
