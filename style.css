@@ -99,4 +99,28 @@ header {
     font-family: "Space Grotesk", sans-serif;
     resize: none;
     line-height: 1.6;
+    font-size: 0.90rem;
+}
+
+.text-area-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    font-size: 0.75rem;
+}
+
+.checkboxes {
+    display: flex;
+    gap: 1rem;
+}
+
+.checkboxes input {
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 2px solid var(--secondary-text);
+    border-radius: 4px;
+    background-color: var(--cards-bg);
+    cursor: pointer;
 }
