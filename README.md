@@ -76,6 +76,7 @@ Y para finalizar la parte del botón de **"see more"** la cual utilizando flexbo
 - **Imágenes:** Las dudas fueron evacuadas en clase, con copilot pude sacar los png necesarios para el proyecto.
 - **Estilado del textarea:** Tuve que investigar la forma de mantenerlo en determinado ancho y altura, también aprendí la propiedad *"resize:none"* que ayudó a dejarlo fijo y mantener un mejor estilado.
 - **Barras de progreso:** Había varias formas de realizarlas como *"progress, meter, etc."* finalmente me decanté por hacerlas con *divs vacíos* que después pude estilizar en CSS ajustando colores, anchos, etc.
+- **README:** Nunca había realizado uno. Si bien fue fácil de aprender y utilicé lo basico, al presentarse el proyecto si lo tomé como una dificultad, pero ahora finalizando me doy cuenta que pude expresar todo lo realizado de una forma fluida.
 
 En cuanto al HTML no se me presentó ninguna dificultad, salvo la de las barras de progreso. Estuve siguiendo los proyectos de práctica en clase, por lo que se me hizo más ameno a la hora de organizarme. Recordé la estructura (header, main, footer, etc.) y las secciones y divisiones que mejor convenían para la hora de organizar el contenido y estilizarlo.
 Al continuar los proyectos de clase también el resto del estilado se me hizo más llevadero y pude ajustar los errores necesarios para que quede lo más parecido posible a la imagen del pdf dado.
