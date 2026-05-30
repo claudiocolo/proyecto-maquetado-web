@@ -3,6 +3,18 @@
     src: url(./assets/fonts/SpaceGrotesk-VariableFont_wght.ttf) format('truetype');
 }
 
+:root {
+    --primary-bg: #12131A;
+    --cards-bg: #1C1F2A;
+    --primary-text:#F2F2F7;
+    --secondary-text: #B4B7C9;
+    --violet-card: #C99DFF;
+    --orange-card: #FFB21E;
+    --coral-card: #FF8A65;
+    --progress-bar: #D19BFF;
+    --edges: #2A2D3A;
+}
+
 * {
     margin: 0;
     padding: 0;
