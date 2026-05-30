@@ -236,3 +236,16 @@ header {
     width: 16px;
     height: 16px;
 }
+
+.sun-button:hover {
+    opacity: 0.8;
+}
+
+.letter-density button:hover {
+    color: var(--primary-text);
+}
+
+.checkboxes input:checked {
+    background-color: var(--progress-bar);
+    border-color: var(--progress-bar);
+}
