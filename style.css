@@ -45,12 +45,12 @@ header {
 .logo-info {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
 }
 
 .logo-info img {
     width: 66px;
     height: 66px;
+    margin-right: -6px;
 }
 
 .logo-info p {
