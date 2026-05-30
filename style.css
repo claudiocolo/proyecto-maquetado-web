@@ -218,3 +218,21 @@ header {
 .fill-11-24 { width: 11.24%; }
 .fill-8-84 { width: 8.84%; }
 .fill-8-43 { width: 8.43%; }
+
+.letter-density button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1.5rem;
+    background: none;
+    border: none;
+    color: var(--secondary-text);
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 0.85rem;
+    cursor: pointer;
+}
+
+.letter-density button img {
+    width: 16px;
+    height: 16px;
+}
