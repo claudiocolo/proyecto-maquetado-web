@@ -170,3 +170,51 @@ header {
     background-position: center;
     background-size: cover;
 }
+
+.letter-density {
+    margin-top: 2rem;
+}
+
+.letter-density h2 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.letter-row {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.letter {
+    width: 16px;
+    color: var(--secondary-text);
+}
+
+.bar {
+    flex: 1;
+    background-color: var(--edges);
+    border-radius: 99px;
+    height: 8px;
+}
+
+.fill {
+    height: 100%;
+    background-color: var(--progress-bar);
+    border-radius: 99px;
+}
+
+.value {
+    color: var(--secondary-text);
+    font-size: 0.85rem;
+    width: 100px;
+    text-align: right;
+}
+
+.fill-16-06 { width: 16.06%; }
+.fill-11-65 { width: 11.65%; }
+.fill-11-24 { width: 11.24%; }
+.fill-8-84 { width: 8.84%; }
+.fill-8-43 { width: 8.43%; }
